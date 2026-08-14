@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact &amp; Find Us — Maniza Perfume</title>
-<meta name="description" content="Find Maniza Perfume near the taxi rank and mall, see our trading hours, and get in touch by WhatsApp, phone or the contact form.">
+<title>Enquiry — Maniza Perfume</title>
+<meta name="description" content="Send an enquiry about our perfumes or Islamic clothing, or place your order directly on WhatsApp.">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -37,106 +37,87 @@
 
   <section class="page-hero">
     <div class="container">
-      <span class="breadcrumb">Home / Contact</span>
-      <h1>Contact &amp; Find Us</h1>
-      <p>Visit us in person, or reach out by WhatsApp, phone, or the form below.</p>
+      <span class="breadcrumb">Home / Enquiry</span>
+      <h1>Send an Enquiry</h1>
+      <p>Ask about a scent, a size, delivery, or anything else — we'll reply on WhatsApp or email.</p>
     </div>
   </section>
 
   <section>
-    <div class="container" style="max-width:640px;">
-
-      <div class="info-block">
-        <h3>Our Store — Korsten</h3>
-        <div class="map-embed">
-          <iframe
-            title="Maniza Perfume location — 47-49 Skidow Street, Korsten, Gqeberha"
-            src="https://www.google.com/maps?q=47+Skidow+Street,+Korsten,+Gqeberha,+6020,+South+Africa&output=embed"
-            width="100%" height="260" style="border:0; border-radius:4px;"
-            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
-        </div>
-        <p style="margin-top:14px; font-size:0.9rem; color:var(--ink-soft);">47–49 Skidow Street, Korsten, Gqeberha (Port Elizabeth), 6020<br>Open Mon–Sat</p>
-        <a class="btn btn-plum" style="margin-top:10px;" href="https://www.google.com/maps/search/?api=1&query=47+Skidow+Street,+Korsten,+Gqeberha,+6020" target="_blank" rel="noopener">Get Directions</a>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="section-alt">
     <div class="container two-col">
 
       <div>
-        <h2>Trading Hours</h2>
-        <table style="width:100%; border-collapse:collapse; font-size:0.92rem;">
-          <tbody>
-            <tr style="border-bottom:1px solid #ecdfc4;"><td style="padding:8px 0; font-weight:700;">Monday – Friday</td><td style="padding:8px 0; text-align:right;">08:00 – 18:00</td></tr>
-            <tr style="border-bottom:1px solid #ecdfc4;"><td style="padding:8px 0; font-weight:700;">Saturday</td><td style="padding:8px 0; text-align:right;">08:00 – 16:00</td></tr>
-            <tr><td style="padding:8px 0; font-weight:700;">Sunday</td><td style="padding:8px 0; text-align:right;">Closed</td></tr>
-          </tbody>
-        </table>
+        <h2>Enquiry Form</h2>
+        <p style="color:var(--ink-soft); margin-bottom:26px;">Fill this in and we'll get back to you as soon as we can. For the fastest reply, use WhatsApp.</p>
 
-        <h2 class="mt-lg">Get in Touch</h2>
-        <ul class="list-check">
-          <li>WhatsApp: <a href="https://wa.me/27000000000" target="_blank" rel="noopener">+27 00 000 0000</a></li>
-          <li>Phone: <a href="tel:+27000000000">+27 00 000 0000</a></li>
-          <li>TikTok: <a href="#" target="_blank" rel="noopener">@manizaperfume</a></li>
-          <li>Facebook: <a href="#" target="_blank" rel="noopener">Maniza Perfume</a></li>
-        </ul>
-      </div>
+        <form id="enquiry-form">
+          <div class="form-field">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
 
-      <div>
-        <h2>Quick Message</h2>
-        <p style="color:var(--ink-soft); margin-bottom:20px;">For a detailed enquiry, use our <a href="enquiry.html" style="color:var(--plum); font-weight:700;">full enquiry form</a>. For a quick question, message us directly.</p>
-        <form>
           <div class="form-field">
-            <label for="qname">Name</label>
-            <input type="text" id="qname" name="qname">
+            <label for="contact-method">Preferred Contact</label>
+            <select id="contact-method" name="contact-method">
+              <option value="whatsapp">WhatsApp</option>
+              <option value="phone">Phone Call</option>
+              <option value="email">Email</option>
+            </select>
           </div>
+
           <div class="form-field">
-            <label for="qmessage">Message</label>
-            <textarea id="qmessage" name="qmessage" rows="4"></textarea>
+            <label for="phone">Phone / WhatsApp Number</label>
+            <input type="tel" id="phone" name="phone" required>
           </div>
-          <a class="btn btn-gold btn-block" href="https://wa.me/27000000000?text=Hi%20Maniza%20Perfume%2C%20I%20have%20a%20quick%20question" target="_blank" rel="noopener">Send on WhatsApp</a>
+
+          <div class="form-field">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email">
+            <p class="form-note">Optional if you'd rather be contacted by phone or WhatsApp.</p>
+          </div>
+
+          <div class="form-field">
+            <label for="enquiry-type">What is your enquiry about?</label>
+            <select id="enquiry-type" name="enquiry-type">
+              <option value="perfume">A Perfume / Scent</option>
+              <option value="clothing">Islamic Clothing</option>
+              <option value="sizing">Sizing Help</option>
+              <option value="delivery">Delivery / Collection</option>
+              <option value="sponsor">Becoming a Stockist / Partner</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell us what you're looking for..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-plum btn-block">Send Enquiry</button>
+
+          <p id="enquiry-confirmation" role="status" hidden style="margin-top:16px; background:var(--gold-soft); color:var(--plum-dark); padding:14px; border-radius:4px; font-weight:600;">
+            Thank you — your enquiry has been noted. For a faster reply, tap "Order Now" to message us directly on WhatsApp.
+          </p>
         </form>
       </div>
 
-    </div>
-  </section>
+      <div>
+        <div class="info-block" style="margin-bottom:20px;">
+          <h3>Prefer WhatsApp?</h3>
+          <p style="color:var(--ink-soft); font-size:0.9rem; margin-bottom:14px;">Most of our customers order this way — tap below to start chatting with us directly.</p>
+          <a class="btn btn-gold btn-block" href="https://wa.me/27000000000?text=Hi%20Maniza%20Perfume%2C%20I%20have%20an%20enquiry" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        </div>
 
-  <div class="divider" aria-hidden="true"></div>
-
-  <section>
-    <div class="container" style="max-width:760px;">
-      <div class="section-head">
-        <span class="eyebrow">Common Questions</span>
-        <h2>FAQ</h2>
+        <div class="info-block">
+          <h3>What Happens Next</h3>
+          <ul class="list-check">
+            <li>We reply within one business day, usually faster on WhatsApp</li>
+            <li>We'll confirm price, size or availability</li>
+            <li>You choose delivery or in-store collection</li>
+            <li>Payment and handover are confirmed directly with you</li>
+          </ul>
+        </div>
       </div>
-
-      <details class="faq-item">
-        <summary>Are your perfumes really alcohol-free?</summary>
-        <p>Yes — all our Dudai perfumes are oil-based and alcohol-free, making them halal-friendly and long-lasting on the skin.</p>
-      </details>
-
-      <details class="faq-item">
-        <summary>How do I order?</summary>
-        <p>Tap "Order Now" on any product to message us on WhatsApp with the item pre-filled, or use the enquiry form for a more detailed request.</p>
-      </details>
-
-      <details class="faq-item">
-        <summary>Do you deliver, or is it collection only?</summary>
-        <p>Both — we deliver locally around the taxi rank and mall area, and you're welcome to collect in person from either location.</p>
-      </details>
-
-      <details class="faq-item">
-        <summary>Can I return or exchange an item?</summary>
-        <p>Message us on WhatsApp within 3 days of collection or delivery and we'll help sort out a size exchange or return where possible.</p>
-      </details>
-
-      <details class="faq-item">
-        <summary>Do you stock items not shown on the website?</summary>
-        <p>Yes — our in-store range is larger than what's photographed so far. Ask us on WhatsApp and we'll send photos of anything you don't see online.</p>
-      </details>
 
     </div>
   </section>
