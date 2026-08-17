@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!-- Enquiry page — form for visitors to ask about products or place an order. -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enquiry — Maniza Perfume</title>
+<meta name="description" content="Send an enquiry about our perfumes or Islamic clothing, or place your order directly on WhatsApp.">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a href="../INDEX.HTML" class="logo">
+      <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">
+        <path d="M15 2 C11 8 9 12 9 16 a6 6 0 0 0 12 0 c0-4-2-8-6-14z" fill="none" stroke="#C9A24B" stroke-width="1.6"/>
+        <path d="M22 8 a5 5 0 1 0 0.3 6.2 A6 6 0 1 1 22 8z" fill="#C9A24B"/>
+      </svg>
+      <span>Maniza Perfume<span class="tagline">Dudai Fragrance &amp; Modest Wear</span></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation menu">&#9776;</button>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      
+        <a href="../INDEX.HTML">Home</a>
+        <a href="about.html">About</a>
+        <a href="perfume.html">Perfumes</a>
+        <a href="islamic-clothing.html">Clothing</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="breadcrumb">Home / Enquiry</span>
+      <h1>Send an Enquiry</h1>
+      <p>Ask about a scent, a size, delivery, or anything else — we'll reply on WhatsApp or email.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container two-col">
+
+      <div>
+        <h2>Enquiry Form</h2>
+        <p style="color:var(--ink-soft); margin-bottom:26px;">Fill this in and we'll get back to you as soon as we can. For the fastest reply, use WhatsApp.</p>
+
+        <form id="enquiry-form">
+          <div class="form-field">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-field">
+            <label for="contact-method">Preferred Contact</label>
+            <select id="contact-method" name="contact-method">
+              <option value="whatsapp">WhatsApp</option>
+              <option value="phone">Phone Call</option>
+              <option value="email">Email</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="phone">Phone / WhatsApp Number</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email">
+            <p class="form-note">Optional if you'd rather be contacted by phone or WhatsApp.</p>
+          </div>
+
+          <div class="form-field">
+            <label for="enquiry-type">What is your enquiry about?</label>
+            <select id="enquiry-type" name="enquiry-type">
+              <option value="perfume">A Perfume / Scent</option>
+              <option value="clothing">Islamic Clothing</option>
+              <option value="sizing">Sizing Help</option>
+              <option value="delivery">Delivery / Collection</option>
+              <option value="sponsor">Becoming a Stockist / Partner</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell us what you're looking for..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-plum btn-block">Send Enquiry</button>
+
+          <p id="enquiry-confirmation" role="status" hidden style="margin-top:16px; background:var(--gold-soft); color:var(--plum-dark); padding:14px; border-radius:4px; font-weight:600;">
+            Thank you — your enquiry has been noted. For a faster reply, tap "Order Now" to message us directly on WhatsApp.
+          </p>
+        </form>
+      </div>
+
+      <div>
+        <div class="info-block" style="margin-bottom:20px;">
+          <h3>Prefer WhatsApp?</h3>
+          <p style="color:var(--ink-soft); font-size:0.9rem; margin-bottom:14px;">Most of our customers order this way — tap below to start chatting with us directly.</p>
+          <a class="btn btn-gold btn-block" href="https://wa.me/27739649791?text=Hi%20Maniza%20Perfume%2C%20I%20have%20an%20enquiry" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        </div>
+
+        <div class="info-block">
+          <h3>What Happens Next</h3>
+          <ul class="list-check">
+            <li>We reply within one business day, usually faster on WhatsApp</li>
+            <li>We'll confirm price, size or availability</li>
+            <li>You choose delivery or in-store collection</li>
+            <li>Payment and handover are confirmed directly with you</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<a class="wa-float" href="https://wa.me/27739649791?text=Hi%20Maniza%20Perfume%2C%20I%27d%20like%20to%20order" target="_blank" rel="noopener" aria-label="Order via WhatsApp">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.5A10 10 0 1 0 12 2zm0 18.2a8.1 8.1 0 0 1-4.1-1.1l-.3-.2-3 .9.9-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5.1-.1.2-.3.4-.4.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s1 2.6 1.1 2.8c.1.2 1.9 3 4.7 4.1.7.3 1.2.4 1.6.6.7.2 1.3.2 1.7.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
+  <span class="wa-label">Order Now</span>
+</a>
+
+
+<!-- Site footer: secondary navigation and business summary (shown on every page) -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Maniza Perfume</h4>
+        <p style="font-size:0.9rem; max-width:280px;">Alcohol-free Dudai perfumes and Islamic clothing, family-run near the taxi rank &amp; mall.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="perfume.html">Perfume Catalogue</a></li>
+          <li><a href="islamic-clothing.html">Islamic Clothing</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Find Us</h4>
+        <ul>
+          <li><a href="contact.html">Contact &amp; Location</a></li>
+          <li><a href="https://wa.me/27739649791" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="#" target="_blank" rel="noopener">TikTok</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Maniza Perfume. All rights reserved.</div>
+  </div>
+</footer>
+
+</body>
+</html>
