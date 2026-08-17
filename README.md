@@ -6,8 +6,7 @@ Dudai Fragrance & Modest Wear
 
 - **Subject:** WEDE5020 — Web Design Fundamentals
 - **Student Name:** Ilhan Bare
-- **Student Number:** [Insert Student Number]
-- **Group:** [Insert Group, if applicable]
+
 
 ## Project Overview
 
