@@ -221,11 +221,8 @@ Part 2 (this submission) focuses on visual design and responsiveness:
 - **2026-08-14** — Added explanatory HTML comments to every page (header, navigation, main
   content, footer).
 - **2026-08-14** — Expanded README to cover goals/objectives, KPIs, sitemap, timeline, and
-  changelog as required for Part 1. 
-  
-  ## screenshot 
-  ![alt text](image.png)
-  ![alt text](image-1.png)
+  changelog as required for Part 1
+
 
 ## References
 
