@@ -174,6 +174,12 @@ Part 2 (this submission) focuses on visual design and responsiveness:
 
 ### Part 2
 
+- **2026-09-17** — Added real product photos for the four remaining Islamic Clothing
+  placeholders (Navy Jilbab, Lavender Jilbab, Two-Piece Prayer Set, Prayer Mat & Wrap Set) —
+  every product on the site now has a real photo, none are left as placeholders.
+- **2026-09-17** — Restructured the Contact page layout into three columns: Trading Hours and
+  Get in Touch on the left, the store map centred and visually emphasised in the middle, and
+  the Quick Message form on the right, per feedback that the map should be the focal point.
 - **2026-09-16** — Created `CSS/style.css` and linked it from every page in the site.
 - **2026-09-16** — Rebuilt `INDEX.HTML`, `about.html` and `perfume.html` to use the same
   `site-header` / `page-hero` / `site-footer` structure already used on the Contact, Enquiry and
@@ -215,7 +221,11 @@ Part 2 (this submission) focuses on visual design and responsiveness:
 - **2026-08-14** — Added explanatory HTML comments to every page (header, navigation, main
   content, footer).
 - **2026-08-14** — Expanded README to cover goals/objectives, KPIs, sitemap, timeline, and
-  changelog as required for Part 1.
+  changelog as required for Part 1. 
+  
+  ## screenshot 
+  ![alt text](image.png)
+  ![alt text](image-1.png)
 
 ## References
 
