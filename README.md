@@ -222,6 +222,11 @@ Part 2 (this submission) focuses on visual design and responsiveness:
   content, footer).
 - **2026-08-14** — Expanded README to cover goals/objectives, KPIs, sitemap, timeline, and
   changelog as required for Part 1
+  ## screenshot of divices
+  <img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/ac61bfed-1e42-498d-aa15-23d968423131" />
+  <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/187882de-4a41-441d-aa37-222a21aabc70" />
+
+
 
 
 ## References
