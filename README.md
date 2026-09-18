@@ -90,11 +90,7 @@ Techniques used: CSS Grid with `auto-fit`/`minmax()` for naturally reflowing pro
 `clamp()` for fluid heading sizes, relative units (`rem`, `%`) for spacing and widths, and media
 queries at the two breakpoints above.
 
-**Screenshot evidence (desktop / tablet / mobile):**
 
-> _Add screenshots here before final submission — e.g. `ASSETS/screenshots/home-desktop.png`,
-> `home-tablet.png`, `home-mobile.png`. Browser developer tools (responsive design mode) can be
-> used to capture each screen size._
 
 ## Sitemap
 
