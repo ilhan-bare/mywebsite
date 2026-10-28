@@ -4,325 +4,197 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maniza Perfume</title>
+    <meta name="description" content="Maniza Perfume — alcohol-free Dudai fragrances and Islamic modest clothing.">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
 
-<!-- Site header: logo, business name/tagline, and primary navigation menu (shown on every page) -->
-<header>
+<a href="#main" class="skip-link">Skip to content</a>
 
-    <img src="ASSETS/logo.jpeg"
-         alt="Maniza Perfume Logo"
-         width="180">
-
-    <h1>Maniza Perfume</h1>
-
-    <p>Dudai Fragrance &amp; Modest Wear</p>
-
-        <!-- Primary navigation: links to every page so users can move around the site from anywhere -->
-<nav>
-        <a href="INDEX.HTML">Home</a> |
-        <a href="PAGES/about.html">About</a> |
-        <a href="PAGES/perfume.html">Perfumes</a> |
-        <a href="PAGES/islamic-clothing.html">Clothing</a> |
-        <a href="PAGES/enquiry.html">Enquiry</a> |
+<header class="site-header">
+  <div class="container">
+    <a href="INDEX.HTML" class="logo">
+      <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">
+        <path d="M15 2 C11 8 9 12 9 16 a6 6 0 0 0 12 0 c0-4-2-8-6-14z" fill="none" stroke="#C9A24B" stroke-width="1.6"/>
+        <path d="M22 8 a5 5 0 1 0 0.3 6.2 A6 6 0 1 1 22 8z" fill="#C9A24B"/>
+      </svg>
+      <span>Maniza Perfume<span class="tagline">Dudai Fragrance &amp; Modest Wear</span></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation menu">&#9776;</button>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <a href="INDEX.HTML" aria-current="page">Home</a>
+        <a href="PAGES/about.html">About</a>
+        <a href="PAGES/perfume.html">Perfumes</a>
+        <a href="PAGES/islamic-clothing.html">Clothing</a>
+        <a href="PAGES/enquiry.html">Enquiry</a>
         <a href="PAGES/contact.html">Contact</a>
     </nav>
-
+  </div>
 </header>
 
+<main id="main">
 
-
-<!-- Main content area for this page -->
-<main>
-
-    <section>
-
-        <h2>Welcome to Maniza Perfume</h2>
-
-        <p>
-            Discover beautiful fragrances and elegant
-            Islamic clothing at Maniza Perfume.
-        </p>
-
-        <p>
-            Find a scent and style that is perfect for you.
-        </p>
-
-        <p>
-            <a href="PAGES/perfume.html">
-                Explore Our Perfumes
-            </a>
-        </p>
-
+    <section class="home-hero">
+      <div class="container">
+        <h1>Welcome to Maniza Perfume</h1>
+        <p>Discover beautiful fragrances and elegant Islamic clothing at Maniza Perfume. Find a scent and style that is perfect for you.</p>
+        <a class="btn btn-gold" href="PAGES/perfume.html">Explore Our Perfumes</a>
+      </div>
     </section>
 
-
     <section>
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Fragrance</span>
+          <h2>Our Featured Perfumes</h2>
+          <p>Discover some of our favourite fragrances.</p>
+        </div>
 
-        <h2>Our Featured Perfumes</h2>
+        <div class="grid grid-4">
 
-        <p>
-            Discover some of our favourite fragrances.
-        </p>
-
-
-        <article>
-
-            <img src="ASSETS/AMBER OUD.jpeg"
-                 alt="Amber Oud perfume"
-                 width="160">
-
+          <article>
+            <img src="ASSETS/AMBER OUD.jpeg" alt="Amber Oud perfume">
             <h3>Amber Oud</h3>
+            <p>A warm and elegant oud fragrance.</p>
+          </article>
 
-            <p>
-                A warm and elegant oud fragrance.
-            </p>
-
-        </article>
-
-
-        <article>
-
-            <img src="ASSETS/GOLDEN MUSK.jpeg"
-                 alt="Golden Musk perfume"
-                 width="160">
-
-            <h3>Golden Musk</h3>
-
-            <p>
-                A beautiful and warm musk fragrance.
-            </p>
-
-        </article>
-
-
-        <article>
-
-            <img src="ASSETS/CITRUS BLOOM.jpeg"
-                 alt="Citrus Bloom perfume"
-                 width="160">
-
+          <article>
+            <img src="ASSETS/CITRUS BLOOM.jpeg" alt="Citrus Bloom perfume">
             <h3>Citrus Bloom</h3>
+            <p>A fresh and refreshing fragrance.</p>
+          </article>
 
-            <p>
-                A fresh and refreshing fragrance.
-            </p>
-
-        </article>
-
-
-        <article>
-
-            <img src="ASSETS/ROSE.jpeg"
-                 alt="Rose perfume"
-                 width="160">
-
+          <article>
+            <img src="ASSETS/ROSE.jpeg" alt="Rose perfume">
             <h3>Rose</h3>
+            <p>A soft and beautiful floral fragrance.</p>
+          </article>
 
-            <p>
-                A soft and beautiful floral fragrance.
-            </p>
-
-        </article>
-
-
-        <article>
-
-            <img src="ASSETS/ROYAL OUD.jpeg"
-                 alt="Royal Oud perfume"
-                 width="160">
-
+          <article>
+            <img src="ASSETS/ROYAL OUD.jpeg" alt="Royal Oud perfume">
             <h3>Royal Oud</h3>
+            <p>A rich and luxurious oud fragrance.</p>
+          </article>
 
-            <p>
-                A rich and luxurious oud fragrance.
-            </p>
+        </div>
 
-        </article>
-
-
-        <p>
-            <a href="PAGES/perfume.html">
-                View All Perfumes
-            </a>
+        <p class="text-center mt-lg">
+            <a class="btn btn-plum" href="PAGES/perfume.html">View All Perfumes</a>
         </p>
-
+      </div>
     </section>
 
+    <section class="section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Modest Fashion</span>
+          <h2>Islamic Clothing Collection</h2>
+          <p>Explore our collection of modest Islamic clothing.</p>
+        </div>
 
-    <section>
+        <div class="grid grid-4">
 
-        <h2>Islamic Clothing Collection</h2>
-
-        <p>
-            Explore our collection of modest Islamic clothing.
-        </p>
-
-
-        <article>
-
-            <img src="ASSETS/BLACK ABAYA.jpeg"
-                 alt="Black Abaya"
-                 width="160">
-
+          <article>
+            <img src="ASSETS/BLACK ABAYA.jpeg" alt="Black Abaya">
             <h3>Black Abaya</h3>
+            <p>Elegant and modest everyday wear.</p>
+          </article>
 
-            <p>
-                Elegant and modest everyday wear.
-            </p>
-
-        </article>
-
-
-        <article>
-
-            <img src="ASSETS/PURPLE ABAYA.jpeg"
-                 alt="Purple Abaya"
-                 width="160">
-
+          <article>
+            <img src="ASSETS/PURPLE ABAYA.jpeg" alt="Purple Abaya">
             <h3>Purple Abaya</h3>
+            <p>A beautiful modest abaya.</p>
+          </article>
 
-            <p>
-                A beautiful modest abaya.
-            </p>
-
-        </article>
-
-
-        <article>
-
-            <img src="ASSETS/MENS'S THOBE (BEIGE).jpeg"
-                 alt="Beige Men's Thobe"
-                 width="160">
-
+          <article>
+            <img src="ASSETS/MENS'S THOBE (BEIGE).jpeg" alt="Beige Men's Thobe">
             <h3>Beige Thobe</h3>
+            <p>A classic and elegant men's thobe.</p>
+          </article>
 
-            <p>
-                A classic and elegant men's thobe.
-            </p>
-
-        </article>
-
-
-        <article>
-
-            <img src="ASSETS/MENS'S THOBE (WHITE).jpeg"
-                 alt="White Men's Thobe"
-                 width="160">
-
+          <article>
+            <img src="ASSETS/MENS'S THOBE (WHITE).jpeg" alt="White Men's Thobe">
             <h3>White Thobe</h3>
+            <p>A simple and elegant white men's thobe.</p>
+          </article>
 
-            <p>
-                A simple and elegant white men's thobe.
-            </p>
+        </div>
 
-        </article>
-
-
-        <p>
-            <a href="PAGES/islamic-clothing.html">
-                View All Clothing
-            </a>
+        <p class="text-center mt-lg">
+            <a class="btn btn-plum" href="PAGES/islamic-clothing.html">View All Clothing</a>
         </p>
-
+      </div>
     </section>
 
-
     <section>
-
-        <h2>Why Choose Maniza Perfume?</h2>
-
-        <ul>
-            <li>Beautiful fragrances</li>
-            <li>Elegant modest clothing</li>
-            <li>A variety of products</li>
-            <li>Friendly customer service</li>
-        </ul>
-
+      <div class="container two-col">
+        <div>
+          <h2>Why Choose Maniza Perfume?</h2>
+          <ul class="list-check">
+              <li>Beautiful fragrances</li>
+              <li>Elegant modest clothing</li>
+              <li>A variety of products</li>
+              <li>Friendly customer service</li>
+          </ul>
+        </div>
+        <div class="info-block">
+          <h3>About Maniza Perfume</h3>
+          <p>Maniza Perfume brings together beautiful fragrances and modest Islamic clothing.</p>
+          <a class="btn btn-plum" href="PAGES/about.html">Learn More About Us</a>
+        </div>
+      </div>
     </section>
 
-
-    <section>
-
-        <h2>About Maniza Perfume</h2>
-
-        <p>
-            Maniza Perfume brings together beautiful
-            fragrances and modest Islamic clothing.
-        </p>
-
-        <p>
-            <a href="PAGES/about.html">
-                Learn More About Us
-            </a>
-        </p>
-
-    </section>
-
-
-    <section>
-
-        <h2>Enquiry</h2>
-
-        <p>
-            Have a question about our products?
-        </p>
-
-        <p>
-            <a href="PAGES/enquiry.html">
-                Make an Enquiry
-            </a>
-        </p>
-
-    </section>
-
-
-    <section>
-
-        <h2>Contact Us</h2>
-
-        <p>
-            We would love to hear from you.
-        </p>
-
-        <p>
-            <a href="PAGES/contact.html">
-                Contact Us
-            </a>
-        </p>
-
+    <section class="section-alt text-center">
+      <div class="container">
+        <h2>Have a Question?</h2>
+        <p>We would love to hear from you.</p>
+        <a class="btn btn-gold" href="PAGES/enquiry.html">Make an Enquiry</a>
+        &nbsp;
+        <a class="btn btn-plum" href="PAGES/contact.html">Contact Us</a>
+      </div>
     </section>
 
 </main>
 
+<a class="wa-float" href="https://wa.me/27739649791?text=Hi%20Maniza%20Perfume%2C%20I%27d%20like%20to%20order" target="_blank" rel="noopener" aria-label="Order via WhatsApp">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.5A10 10 0 1 0 12 2zm0 18.2a8.1 8.1 0 0 1-4.1-1.1l-.3-.2-3 .9.9-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5.1-.1.2-.3.4-.4.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s1 2.6 1.1 2.8c.1.2 1.9 3 4.7 4.1.7.3 1.2.4 1.6.6.7.2 1.3.2 1.7.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
+  <span class="wa-label">Order Now</span>
+</a>
 
-
-<!-- Site footer: secondary navigation and business summary (shown on every page) -->
-<footer>
-
-    <h3>Maniza Perfume</h3>
-
-    <p>
-        Dudai Fragrance &amp; Modest Wear
-    </p>
-
-    <nav>
-        <a href="INDEX.HTML">Home</a> |
-        <a href="PAGES/about.html">About</a> |
-        <a href="PAGES/perfume.html">Perfumes</a> |
-        <a href="PAGES/islamic-clothing.html">Clothing</a> |
-        <a href="PAGES/enquiry.html">Enquiry</a> |
-        <a href="PAGES/contact.html">Contact</a>
-    </nav>
-
-    <p>
-        &copy; 2026 Maniza Perfume. All rights reserved.
-    </p>
-
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Maniza Perfume</h4>
+        <p style="font-size:0.9rem; max-width:280px;">Alcohol-free Dudai perfumes and Islamic clothing, family-run near the taxi rank &amp; mall.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="PAGES/about.html">About Us</a></li>
+          <li><a href="PAGES/perfume.html">Perfume Catalogue</a></li>
+          <li><a href="PAGES/islamic-clothing.html">Islamic Clothing</a></li>
+          <li><a href="PAGES/enquiry.html">Enquiry</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Find Us</h4>
+        <ul>
+          <li><a href="PAGES/contact.html">Contact &amp; Location</a></li>
+          <li><a href="https://wa.me/27739649791" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="#" target="_blank" rel="noopener">TikTok</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Maniza Perfume. All rights reserved.</div>
+  </div>
 </footer>
 
+<script src="JS/script.js"></script>
 </body>
-
 </html>
