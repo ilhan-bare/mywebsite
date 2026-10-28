@@ -221,6 +221,64 @@ Part 2 (this submission) focuses on visual design and responsiveness:
   ## screenshot of divices
   <img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/ac61bfed-1e42-498d-aa15-23d968423131" />
   <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/187882de-4a41-441d-aa37-222a21aabc70" />
+  Part 3 Details
+Part 3 (this submission) adds functionality, validated forms, and basic SEO:
+Forms: Both `enquiry.html` and `contact.html` now have fully functional, validated forms
+with distinct purposes, as required:
+Enquiry form — collects name, contact method, phone, email, enquiry type (perfume,
+clothing, sizing, delivery, sponsor/volunteer, other) and a message. On successful
+validation it shows a dynamic response about cost/availability tailored to the enquiry
+type selected (e.g. a clothing enquiry shows the clothing price range, a perfume enquiry
+shows the perfume price range).
+Contact form — collects name, email, message type, and a general message. On successful
+validation it compiles the details into an email (subject + body) and opens the visitor's
+email client via a `mailto:` link addressed to the business, so the visitor sends the email
+themselves.
+Both forms use JavaScript client-side validation (required fields, email format, phone
+number format, minimum message length) with inline error messages shown next to the
+relevant field, rather than a browser alert.
+Interactive elements:
+A working mobile navigation menu (hamburger toggle) that opens and closes the nav on small
+screens.
+A functional category / size / colour filter on the Islamic Clothing page — selecting a
+filter option shows only matching products, with a "no items match" message when a
+combination has no results.
+An image lightbox — clicking any product photo across the site opens it in a larger,
+full-screen overlay (closable via the × button, clicking outside the image, or Escape).
+The FAQ accordion on the Contact page uses native `<details>`/`<summary>` elements.
+SEO basics:
+Descriptive, unique `<title>` and `<meta name="description">` tags on every page (already
+in place from Part 2, reviewed and kept for Part 3).
+Semantic heading structure (`h1`–`h3`) on every page.
+Descriptive image file names and `alt` text throughout.
+Clean, descriptive URLs/file names (e.g. `islamic-clothing.html`, not `page3.html`).
+Internal linking between all pages via the navigation and footer.
+`robots.txt` added at the site root, allowing all crawlers and pointing to the sitemap.
+`sitemap.xml` added at the site root, listing all six pages.
+The site remains fully responsive/mobile-friendly (carried over from Part 2).
+All JavaScript lives in one external file, `JS/script.js`, linked from every page — no inline
+`<script>` blocks were added for this functionality.
+Changelog
+Part 3
+2026-10-20 — Built `JS/script.js`: a single external script linked from every page,
+covering the mobile nav toggle, the Islamic Clothing filter, the image lightbox, and
+validation for both forms.
+2026-10-24 — Added full client-side validation to the Enquiry form (name, phone, email
+format, message length) with a dynamic, enquiry-type-specific response on success.
+2026-10-26 — Rebuilt the Contact page's message form (`#contact-form`) to collect name,
+email, message type and message, validate them, and compile the result into a pre-filled
+email via a `mailto:` link.
+2026-10-26 — Wired up the Islamic Clothing filter bar (category, size, colour) with real
+JavaScript filtering and an empty-state message.
+2026-10-26 — Added a site-wide image lightbox: clicking any product photo opens an
+enlarged view.
+2026-10-26 — Added a working mobile hamburger menu (previously just a static icon).
+2026-10-26 — Added `robots.txt` and `sitemap.xml` at the project root for basic SEO.
+2026-10-26 (Part 2 feedback correction) — Re-applied the Part 2 fixes that had been lost
+from a prior manual copy/paste into GitHub: images moved back into `ASSETS/`, the
+`perfume,html` filename typo fixed again, the Home/About/Perfumes pages restored to the
+shared header/footer/hero design, and the three-column Contact layout (info / map / form)
+restored.
 
 
 
