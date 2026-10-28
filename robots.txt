@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://resonant-babka-4e6419.netlify.app/sitemap.xml
