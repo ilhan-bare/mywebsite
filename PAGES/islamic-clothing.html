@@ -76,7 +76,9 @@
         </select>
       </div>
 
-      <div class="grid grid-4">
+      <p id="filter-empty" hidden style="text-align:center; color:var(--ink-soft); padding:30px 0;">No items match those filters — try widening your search.</p>
+
+      <div class="grid grid-4" id="product-grid">
 
         <div class="card" data-category="abaya" data-size="m" data-colour="black">
           <img src="../ASSETS/BLACK ABAYA.jpeg" alt="Black Abaya">
@@ -105,7 +107,7 @@
         </div>
 
         <div class="card" data-category="jilbab" data-size="s" data-colour="navy">
-          <div class="media-placeholder">Photo:<br>Navy Jilbab</div>
+          <img src="../ASSETS/NAVY JILBAB.jpeg" alt="Navy Jilbab">
           <div class="card-body">
             <span class="tag">Jilbab</span>
             <h3>Everyday Navy Jilbab</h3>
@@ -117,12 +119,12 @@
           </div>
         </div>
 
-        <div class="card" data-category="jilbab" data-size="xl" data-colour="cream">
-          <div class="media-placeholder">Photo:<br>Cream Jilbab</div>
+        <div class="card" data-category="jilbab" data-size="xl" data-colour="plum">
+          <img src="../ASSETS/LAVENDER JILBAB.jpeg" alt="Lavender Jilbab">
           <div class="card-body">
             <span class="tag">Jilbab</span>
-            <h3>Flowy Cream Jilbab</h3>
-            <p style="color:var(--ink-soft); font-size:0.85rem;">Size XL &middot; Cream</p>
+            <h3>Flowy Lavender Jilbab</h3>
+            <p style="color:var(--ink-soft); font-size:0.85rem;">Size XL &middot; Lavender</p>
             <div class="price-row">
               <span class="price">R420</span>
               <a class="wa-order" href="https://wa.me/27739649791?text=Hi%2C%20I%27d%20like%20to%20order%20the%20Flowy%20Cream%20Jilbab" target="_blank" rel="noopener">Order</a>
@@ -157,11 +159,11 @@
         </div>
 
         <div class="card" data-category="prayer" data-size="m" data-colour="plum">
-          <div class="media-placeholder">Photo:<br>Prayer Set</div>
+          <img src="../ASSETS/PRAYER SET PINK.jpeg" alt="Two-Piece Prayer Set">
           <div class="card-body">
             <span class="tag">Prayer Wear</span>
             <h3>Two-Piece Prayer Set</h3>
-            <p style="color:var(--ink-soft); font-size:0.85rem;">Size M &middot; Plum</p>
+            <p style="color:var(--ink-soft); font-size:0.85rem;">Size M &middot; Dusty Rose</p>
             <div class="price-row">
               <span class="price">R320</span>
               <a class="wa-order" href="https://wa.me/27739649791?text=Hi%2C%20I%27d%20like%20to%20order%20the%20Two-Piece%20Prayer%20Set" target="_blank" rel="noopener">Order</a>
@@ -169,12 +171,12 @@
           </div>
         </div>
 
-        <div class="card" data-category="prayer" data-size="s" data-colour="cream">
-          <div class="media-placeholder">Photo:<br>Prayer Mat &amp; Wrap</div>
+        <div class="card" data-category="prayer" data-size="s" data-colour="black">
+          <img src="../ASSETS/PRAYER MAT SET.jpeg" alt="Prayer Mat and Wrap Set">
           <div class="card-body">
             <span class="tag">Prayer Wear</span>
             <h3>Prayer Mat &amp; Wrap Set</h3>
-            <p style="color:var(--ink-soft); font-size:0.85rem;">Size S &middot; Cream</p>
+            <p style="color:var(--ink-soft); font-size:0.85rem;">Size S &middot; Black &amp; White</p>
             <div class="price-row">
               <span class="price">R280</span>
               <a class="wa-order" href="https://wa.me/27739649791?text=Hi%2C%20I%27d%20like%20to%20order%20the%20Prayer%20Mat%20%26%20Wrap%20Set" target="_blank" rel="noopener">Order</a>
@@ -235,5 +237,6 @@
   </div>
 </footer>
 
+<script src="../JS/script.js"></script>
 </body>
 </html>
